@@ -3,12 +3,12 @@
 		<link href="https://cdn.jsdelivr.net/gh/hmrsmart/dayone@main/public/assets/plugins/bootstrap-timepicker/bootstrap-timepicker.css" rel="stylesheet">
 	<div class="page-header d-xl-flex d-block">
 							<div class="page-leftheader">
-								<h4 class="page-title">Attendance By User</h4>
+								<h4 class="page-title">حضور المستخدم</h4>
 							</div>
 							<div class="page-leftheader mr-md-auto">
 								<div class="d-flex align-items-end flex-wrap my-auto left-content breadcrumb-left">
 									<div class="btn-list">
-										<a href="javascript:renderPage('hr-attmark')" class="btn btn-primary ml-3">Mark Attendance</a>
+										<a href="javascript:renderPage('hr-attmark')" class="btn btn-primary ml-3">علامة الحضور</a>
 										<button class="btn btn-light" data-toggle="tooltip" data-placement="top" title="E-mail"> <i class="feather feather-mail"></i> </button>
 										<button class="btn btn-light" data-placement="top" data-toggle="tooltip" title="Contact"> <i class="feather feather-phone-call"></i> </button>
 										<button class="btn btn-primary" data-placement="top" data-toggle="tooltip" title="Info"> <i class="feather feather-info"></i> </button>
@@ -18,7 +18,7 @@
 						</div>
 						<div class="hrattview-buttons">
 							<a href="javascript:renderPage('hr-attlist')">Attendance Overview</a>
-							<a href="javascript:renderPage('#')" class="active ml-5">Attendance By User</a>
+							<a href="javascript:renderPage('#')" class="active ml-5">حضور المستخدم</a>
 						</div>
 						<div class="row">
 							<div class="col-xl-12 col-md-12 col-lg-12">
@@ -27,27 +27,27 @@
 										<div class="row mb-0 pb-0">
 											<div class="col-md-6 col-lg-2 text-center py-5">
 												<span class="avatar avatar-md bradius fs-20 bg-primary-transparent">31</span>
-												<h5 class="mb-0 mt-3">Total Working Days</h5>
+												<h5 class="mb-0 mt-3">مجموع أيام العمل</h5>
 											</div>
 											<div class="col-md-6 col-lg-2 text-center py-5 ">
 												<span class="avatar avatar-md bradius fs-20 bg-success-transparent">24</span>
-												<h5 class="mb-0 mt-3">Present Days</h5>
+												<h5 class="mb-0 mt-3">أيام الحضور</h5>
 											</div>
 											<div class="col-md-6 col-lg-2 text-center py-5">
 												<span class="avatar avatar-md bradius fs-20 bg-danger-transparent">2</span>
-												<h5 class="mb-0 mt-3">Absent Days</h5>
+												<h5 class="mb-0 mt-3">أيام الغياب</h5>
 											</div>
 											<div class="col-md-6 col-lg-2 text-center py-5">
 												<span class="avatar avatar-md bradius fs-20 bg-warning-transparent">0</span>
-												<h5 class="mb-0 mt-3">Half Days</h5>
+												<h5 class="mb-0 mt-3">نصف يوم</h5>
 											</div>
 											<div class="col-md-6 col-lg-2 text-center py-5 ">
 												<span class="avatar avatar-md bradius fs-20 bg-orange-transparent">2</span>
-												<h5 class="mb-0 mt-3">Late Days</h5>
+												<h5 class="mb-0 mt-3">أيام التأخير</h5>
 											</div>
 											<div class="col-md-6 col-lg-2 text-center py-5">
 												<span class="avatar avatar-md bradius fs-20 bg-pink-transparent">5</span>
-												<h5 class="mb-0 mt-3">Holidays</h5>
+												<h5 class="mb-0 mt-3">العٌطل الرسمية</h5>
 											</div>
 										</div>
 										<div class="row mt-5">
@@ -55,7 +55,7 @@
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group">
-															<label class="form-label">Employee Name:</label>
+															<label class="form-label">إسم الموظف:</label>
 															<select class="form-control custom-select select2" data-placeholder="Select Employee">
 																<option label="Select Employee"></option>
 																<option value="1" selected="">Faith Harris</option>
@@ -78,7 +78,7 @@
 													</div>
 													<div class="col-md-6">
 														<div class="form-group">
-															<label class="form-label">Select Date:</label>
+															<label class="form-label">إختر التاريخ:</label>
 															<div class="input-group">
 																<div class="input-group-prepend">
 																	<div class="input-group-text">
@@ -94,33 +94,33 @@
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group">
-															<label class="form-label">Month:</label>
-															<select class="form-control custom-select select2" data-placeholder="Select Month">
-																<option label="Select Month"></option>
-																<option value="1" selected="">January</option>
-																<option value="2">February</option>
-																<option value="3">March</option>
-																<option value="4">April</option>
-																<option value="5">May</option>
-																<option value="6">June</option>
-																<option value="7">July</option>
-																<option value="8">August</option>
-																<option value="9">September</option>
-																<option value="10">October</option>
-																<option value="11">November</option>
-																<option value="12">December</option>
+															<label class="form-label">الشهر:</label>
+															<select class="form-control custom-select select2" data-placeholder="إختر الشهر">
+																<option label="إختر الشهر"></option>
+																<option value="1" >كانون الثاني</option>
+																<option value="2">شباط</option>
+																<option value="3">آذار</option>
+																<option value="4">نيسان</option>
+																<option value="5">آيار</option>
+																<option value="6" selected="">حزيران</option>
+																<option value="7">تموز</option>
+																<option value="8">آب</option>
+																<option value="9">أيلول</option>
+																<option value="10">تشرين الاول</option>
+																<option value="11">تشرين الثاني</option>
+																<option value="12">كانون الاول</option>
 															</select>
 														</div>
 													</div>
 													<div class="col-md-6">
 														<div class="form-group">
-															<label class="form-label">Year:</label>
-															<select name="attendance" class="form-control custom-select select2" data-placeholder="Select Year">
-																<option label="Select Year"></option>
+															<label class="form-label">السنة:</label>
+															<select name="attendance" class="form-control custom-select select2" data-placeholder="إختر السنة">
+																<option label="إختر السنة"></option>
 																<option value="1">2024</option>
 																<option value="2">2023</option>
-																<option value="3">2022</option>
-																<option value="4" selected="">2021</option>
+																<option value="3" selected="">2022</option>
+																<option value="4" >2021</option>
 																<option value="5">2020</option>
 																<option value="6">2019</option>
 																<option value="7">2018</option>
@@ -140,7 +140,7 @@
 											</div>
 											<div class="col-md-12 col-lg-2">
 												<div class="form-group mt-5">
-													<a href="javascript:renderPage('#')" class="btn btn-primary btn-block">Search</a>
+													<a href="javascript:renderPage('#')" class="btn btn-primary btn-block">بحث</a>
 												</div>
 											</div>
 										</div>
@@ -150,20 +150,20 @@
 											<table class="table  table-vcenter text-nowrap table-bordered border-bottom" id="emp-attendance">
 												<thead>
 													<tr>
-														<th class="border-bottom-0">Date</th>
-														<th class="border-bottom-0">Day</th>
-														<th class="border-bottom-0">Status</th>
-														<th class="border-bottom-0">Clock In</th>
-														<th class="border-bottom-0">Clock Out</th>
-														<th class="border-bottom-0">Progress</th>
-														<th class="border-bottom-0">Action</th>
+														<th class="border-bottom-0">التاريخ</th>
+														<th class="border-bottom-0">يوم</th>
+														<th class="border-bottom-0">حالة</th>
+														<th class="border-bottom-0">وقت الحضور</th>
+														<th class="border-bottom-0">وقت الانصراف</th>
+														<th class="border-bottom-0">سير اليوم</th>
+														<th class="border-bottom-0">نشاط</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
 														<td>28-01-2021</td>
-														<td>Thursday</td>
-														<td><span class="badge badge-success-light">Present</span></td>
+														<td>الخميس</td>
+														<td><span class="badge badge-success-light">حاضر</span></td>
 														<td>09:30 AM</td>
 														<td>06:30 PM</td>
 														<td>
@@ -179,8 +179,8 @@
 													</tr>
 													<tr>
 														<td>27-01-2021</td>
-														<td>Wednesday</td>
-														<td><span class="badge badge-success-light">Present</span></td>
+														<td>الأربعاء</td>
+														<td><span class="badge badge-success-light">حاضر</span></td>
 														<td>09:30 AM</td>
 														<td>06:30 PM</td>
 														<td>
@@ -196,8 +196,8 @@
 													</tr>
 													<tr>
 														<td>26-01-2021</td>
-														<td>Tuesday</td>
-														<td><span class="badge badge-warning-light">Holiday (Republic Day)</span></td>
+														<td>الثلاثاء</td>
+														<td><span class="badge badge-warning-light">عطلة (العيد الوطني)</span></td>
 														<td>--</td>
 														<td>--</td>
 														<td>
@@ -213,8 +213,8 @@
 													</tr>
 													<tr>
 														<td>25-01-2021</td>
-														<td>Monday</td>
-														<td><span class="badge badge-orange-light">Late</span></td>
+														<td>الأثنين</td>
+														<td><span class="badge badge-orange-light">متأخر</span></td>
 														<td>09:50 AM</td>
 														<td>06:30 PM</td>
 														<td>
@@ -231,8 +231,8 @@
 													</tr>
 													<tr>
 														<td>24-01-2021</td>
-														<td>Sunday</td>
-														<td><span class="badge badge-warning-light">Holiday (Sunday)</span></td>
+														<td>الاحد</td>
+														<td><span class="badge badge-warning-light">عطلة (الأحد)</span></td>
 														<td>--</td>
 														<td>--</td>
 														<td>
@@ -248,8 +248,8 @@
 													</tr>
 													<tr>
 														<td>23-01-2021</td>
-														<td>Saturday</td>
-														<td><span class="badge badge-success-light">Present</span></td>
+														<td>السبت</td>
+														<td><span class="badge badge-success-light">حاظر</span></td>
 														<td>09:30 AM</td>
 														<td>06:30 PM</td>
 														<td>
@@ -265,8 +265,8 @@
 													</tr>
 													<tr>
 														<td>22-01-2021</td>
-														<td>Friday</td>
-														<td><span class="badge badge-success-light">Present</span></td>
+														<td>الجمعة</td>
+														<td><span class="badge badge-success-light">حاظر</span></td>
 														<td>09:30 AM</td>
 														<td>06:30 PM</td>
 														<td>
@@ -282,8 +282,8 @@
 													</tr>
 													<tr>
 														<td>21-01-2021</td>
-														<td>Thursday</td>
-														<td><span class="badge badge-success-light">Present</span></td>
+														<td>الخميس</td>
+														<td><span class="badge badge-success-light">حاظر</span></td>
 														<td>09:30 AM</td>
 														<td>06:30 PM</td>
 														<td>
@@ -299,8 +299,8 @@
 													</tr>
 													<tr>
 														<td>20-01-2021</td>
-														<td>Wednesday</td>
-														<td><span class="badge badge-success-light">Present</span></td>
+														<td>الأربعاء</td>
+														<td><span class="badge badge-success-light">حاظر</span></td>
 														<td>09:30 AM</td>
 														<td>06:30 PM</td>
 														<td>
@@ -316,8 +316,8 @@
 													</tr>
 													<tr>
 														<td>19-01-2021</td>
-														<td>Tuesday</td>
-														<td><span class="badge badge-success-light">Present</span></td>
+														<td>الثلاثاء</td>
+														<td><span class="badge badge-success-light">حاظر</span></td>
 														<td>09:30 AM</td>
 														<td>06:30 PM</td>
 														<td>
@@ -333,8 +333,8 @@
 													</tr>
 													<tr>
 														<td>18-01-2021</td>
-														<td>Monday</td>
-														<td><span class="badge badge-success-light">Present</span></td>
+														<td>الإثنين</td>
+														<td><span class="badge badge-success-light">حاظر</span></td>
 														<td>09:30 AM</td>
 														<td>06:30 PM</td>
 														<td>
@@ -350,8 +350,8 @@
 													</tr>
 													<tr>
 														<td>17-01-2021</td>
-														<td>Sunday</td>
-														<td><span class="badge badge-warning-light">Holiday (Sunday)</span></td>
+														<td>الاحد</td>
+														<td><span class="badge badge-warning-light">عطلة (الاحد)</span></td>
 														<td>--</td>
 														<td>--</td>
 														<td>
@@ -367,8 +367,8 @@
 													</tr>
 													<tr>
 														<td>16-01-2021</td>
-														<td>Saturday</td>
-														<td><span class="badge badge-danger-light">Absent</span></td>
+														<td>السبت</td>
+														<td><span class="badge badge-danger-light">غائب</span></td>
 														<td>--</td>
 														<td>--</td>
 														<td>
@@ -384,8 +384,8 @@
 													</tr>
 													<tr>
 														<td>15-01-2021</td>
-														<td>Saturday</td>
-														<td><span class="badge badge-danger-light">Absent</span></td>
+														<td>السبت</td>
+														<td><span class="badge badge-danger-light">غائب</span></td>
 														<td>--</td>
 														<td>--</td>
 														<td>
@@ -401,8 +401,8 @@
 													</tr>
 													<tr>
 														<td>14-01-2021</td>
-														<td>Saturday</td>
-														<td><span class="badge badge-danger-light">Absent</span></td>
+														<td>السبت</td>
+														<td><span class="badge badge-danger-light">غائب</span></td>
 														<td>--</td>
 														<td>--</td>
 														<td>

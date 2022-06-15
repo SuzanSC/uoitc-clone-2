@@ -3,12 +3,12 @@
 		<link href="https://cdn.jsdelivr.net/gh/hmrsmart/dayone@main/public/assets/plugins/bootstrap-timepicker/bootstrap-timepicker.css" rel="stylesheet">
 	<div class="page-header d-xl-flex d-block">
 							<div class="page-leftheader">
-								<h4 class="page-title">Attendance</h4>
+								<h4 class="page-title">الحضور</h4>
 							</div>
 							<div class="page-leftheader mr-md-auto">
 								<div class="d-flex align-items-end flex-wrap my-auto left-content breadcrumb-left">
 									<div class="btn-list">
-										<a href="javascript:renderPage('hr-attmark')" class="btn btn-primary ml-3">Mark Attendance</a>
+										<a href="javascript:renderPage('hr-attmark')" class="btn btn-primary ml-3">علامة الحضور</a>
 										<button class="btn btn-light" data-toggle="tooltip" data-placement="top" title="E-mail"> <i class="feather feather-mail"></i> </button>
 										<button class="btn btn-light" data-placement="top" data-toggle="tooltip" title="Contact"> <i class="feather feather-phone-call"></i> </button>
 										<button class="btn btn-primary" data-placement="top" data-toggle="tooltip" title="Info"> <i class="feather feather-info"></i> </button>
@@ -17,8 +17,8 @@
 							</div>
 						</div>
 						<div class="hrattview-buttons">
-							<a href="javascript:renderPage('#')" class="active">Attendance Overview</a>
-							<a href="javascript:renderPage('hr-attuser')" class="mr-5">Attendance By User</a>
+							<a href="javascript:renderPage('#')" class="active">الحضور العام</a>
+							<a href="javascript:renderPage('hr-attuser')" class="mr-5">حضور المستخدم</a>
 						</div>
 						<div class="row">
 							<div class="col-xl-12 col-md-12 col-lg-12">
@@ -27,9 +27,9 @@
 										<div class="row mt-5">
 											<div class="col-md-6 col-lg-3">
 												<div class="form-group">
-													<label class="form-label">Employee Name:</label>
-													<select class="form-control custom-select select2" data-placeholder="Select Employee">
-														<option label="Select Employee"></option>
+													<label class="form-label">أسم الموظف:</label>
+													<select class="form-control custom-select select2" data-placeholder="إختر موظف">
+														<option label="إختر موظف"></option>
 														<option value="1">Faith Harris</option>
 														<option value="2">Austin Bell</option>
 														<option value="3">Maria Bower</option>
@@ -50,29 +50,29 @@
 											</div>
 											<div class="col-md-6 col-lg-3">
 												<div class="form-group">
-													<label class="form-label">Month:</label>
-													<select class="form-control custom-select select2" data-placeholder="Select Month">
-														<option label="Select Month"></option>
-														<option value="1">January</option>
-														<option value="2">February</option>
-														<option value="3">March</option>
-														<option value="4">April</option>
-														<option value="5">May</option>
-														<option value="6">June</option>
-														<option value="7">July</option>
-														<option value="8">August</option>
-														<option value="9">September</option>
-														<option value="10">October</option>
-														<option value="11">November</option>
-														<option value="12">December</option>
+													<label class="form-label">الشهر:</label>
+													<select class="form-control custom-select select2" data-placeholder="إختر الشهر">
+														<option label="إختر الشهر"></option>
+														<option value="1">كانون الثاني</option>
+														<option value="2">شباط</option>
+														<option value="3">آذار</option>
+														<option value="4">نيسان</option>
+														<option value="5">أيار </option>
+														<option value="6">حزيران</option>
+														<option value="7">تموز</option>
+														<option value="8">آب</option>
+														<option value="9">أيلول</option>
+														<option value="10">تشرين الاول</option>
+														<option value="11">تشرين الثاني</option>
+														<option value="12">كانون الاول</option>
 													</select>
 												</div>
 											</div>
 											<div class="col-md-6 col-lg-3">
 												<div class="form-group">
-													<label class="form-label">Year:</label>
-													<select class="form-control custom-select select2" data-placeholder="Select Year">
-														<option label="Select Year"></option>
+													<label class="form-label">السنة:</label>
+													<select class="form-control custom-select select2" data-placeholder="إختر السنة">
+														<option label="إختر السنة"></option>
 														<option value="1">2024</option>
 														<option value="2">2023</option>
 														<option value="3">2022</option>
@@ -94,7 +94,7 @@
 											</div>
 											<div class="col-md-6 col-lg-3">
 												<div class="form-group mt-5">
-													<a href="javascript:renderPage('#')" class="btn btn-primary btn-block">Search</a>
+													<a href="javascript:renderPage('#')" class="btn btn-primary btn-block">بحث</a>
 												</div>
 											</div>
 										</div>
@@ -102,20 +102,20 @@
 									<div class="card-body">
 										<div class="d-flex mb-6 mt-5">
 											<div class="mr-3">
-												<label class="form-label">Note:</label>
+												<label class="form-label">تعني:</label>
 											</div>
 											<div>
-												<span class="badge badge-success-light mr-2"><i class="feather feather-check-circle text-success"></i> ---> Present</span>
-												<span class="badge badge-danger-light mr-2"><i class="feather feather-x-circle text-danger"></i> ---> Absent</span>
-												<span class="badge badge-warning-light mr-2"><i class="fa fa-star text-warning"></i> ---> Holiday</span>
-												<span class="badge badge-orange-light mr-2"><i class="fa fa-adjust text-orange"></i>  ---> Half Day</span>
+												<span class="badge badge-success-light mr-2"><i class="feather feather-check-circle text-success"></i> ---> التواجد</span>
+												<span class="badge badge-danger-light mr-2"><i class="feather feather-x-circle text-danger"></i> ---> الغياب</span>
+												<span class="badge badge-warning-light mr-2"><i class="fa fa-star text-warning"></i> --->العطل الرسمية</span>
+												<span class="badge badge-orange-light mr-2"><i class="fa fa-adjust text-orange"></i>  ---> نصف يوم </span>
 											</div>
 										</div>
 										<div class="table-responsive hr-attlist">
 											<table class="table  table-vcenter text-nowrap table-bordered border-bottom" id="hr-attendance">
 												<thead>
 													<tr>
-														<th class="border-bottom-0">Employee Name</th>
+														<th class="border-bottom-0">إسم الموظف</th>
 														<th class="border-bottom-0 w-5">1</th>
 														<th class="border-bottom-0 w-5">2</th>
 														<th class="border-bottom-0 w-5">3</th>
@@ -147,7 +147,7 @@
 														<th class="border-bottom-0 w-5">29</th>
 														<th class="border-bottom-0 w-5">30</th>
 														<th class="border-bottom-0 w-5">31</th>
-														<th class="border-bottom-0">Total</th>
+														<th class="border-bottom-0">المجموع</th>
 													</tr>
 												</thead>
 												<tbody>
